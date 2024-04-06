@@ -25,7 +25,6 @@ public class ShowStudent {
 			while(rs.next()) {
 				System.out.print(rs.getInt(1)+"\t");
 				System.out.print(rs.getString(2)+"\t");
-				System.out.println(rs.getFloat(3)+"\t\n");
 			}
 			
 
